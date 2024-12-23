@@ -8,10 +8,11 @@ namespace Construtores
         {
             Produto p = new Produto("TV", 500, 10);
 
-            p.SetNome("Tv 4k");
+            p.Nome = "Tv 4k";
+            //p.Preco = 400; // readonly value 
 
-            Console.WriteLine(p.GetNome());
-            Console.WriteLine(p.GetPreco());
+            Console.WriteLine(p.Nome);
+            Console.WriteLine(p.Preco);
         }
     }
 }
